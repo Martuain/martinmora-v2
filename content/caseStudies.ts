@@ -104,7 +104,7 @@ export const caseStudies: CaseStudy[] = [
       "Shadow mode migration is slower but almost always worth it — it surfaces edge cases that cannot be discovered in testing alone.",
       "Operations teams embrace automation when they design it alongside engineers, not when it is deployed to them.",
     ],
-    tags: ["Payments", "Automation", "Operational Excellence", "AI/ML"],
+    tags: ["Payments", "Automation", "Operational Excellence", "AI"],
     color: "#f59e0b",
   },
   {
@@ -118,8 +118,8 @@ export const caseStudies: CaseStudy[] = [
       "A cybersecurity and data governance SaaS company had built strong product-market fit in a narrow vertical but was facing growth ceiling limitations. Leadership needed a validated strategy to expand the platform into adjacent markets using AI capabilities without destabilizing existing revenue.",
     approach: [
       "Ran a structured discovery program with 40+ customer interviews and competitive analysis to identify unmet jobs-to-be-done in adjacent segments.",
-      "Used AI/ML capabilities already embedded in the platform as the foundation for new product hypotheses, avoiding greenfield development risk.",
-      "Designed a three-horizon product roadmap: defend the core, extend into adjacencies, and explore new growth vectors — each with distinct success metrics.",
+      "Mapped the AI capabilities already embedded in the platform as the foundation for new product hypotheses, identifying where intelligence could unlock new market categories.",
+      "Designed a three-horizon product roadmap: defend the core, extend into adjacencies through new AI-powered features, and explore new growth vectors through autonomous AI workflows — each with distinct success metrics.",
       "Facilitated executive alignment sessions to resolve competing priorities between existing customer commitments and new market investment.",
       "Introduced a validation-first development model using rapid prototypes and design sprints before any full engineering investment was committed.",
     ],
@@ -143,3 +143,4 @@ export const caseStudies: CaseStudy[] = [
 export function getCaseStudy(slug: string) {
   return caseStudies.find((cs) => cs.slug === slug);
 }
+
