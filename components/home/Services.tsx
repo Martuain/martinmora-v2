@@ -24,17 +24,17 @@ const services = [
   },
   {
     id: "ai",
-    title: "AI Enablement & Product Innovation",
-    tagline: "Moving AI from experiment to measurable business value.",
+    title: "AI Strategy & Product Innovation",
+    tagline: "From AI opportunity to measurable business value — across the full AI spectrum.",
     description:
-      "I help organizations identify, validate, and implement AI opportunities across two distinct domains: product innovation using GenAI to build better products, and operational transformation using GenAI to improve efficiency.",
+      "I help organizations identify, validate, and implement AI opportunities that create real business value — both for product innovation and operational transformation. Strategy first, technology second.",
     deliverables: [
-      "AI opportunity assessment",
+      "AI opportunity assessment & roadmap",
+      "AI product strategy & feature design",
       "Use-case prioritization & business case",
-      "Product AI feature strategy",
-      "Workflow automation design",
-      "Governance frameworks",
-      "AI adoption roadmap",
+      "AI agent design & workflow automation",
+      "Governance, risk & ethics frameworks",
+      "AI adoption & change management",
     ],
     bestFor: "Product teams · Operations leaders · Innovation units",
     accent: "#6366f1",
@@ -59,10 +59,22 @@ const services = [
 ];
 
 const engagementModels = [
-  { title: "Strategic Advisory", description: "Ongoing strategic guidance for leadership teams navigating critical decisions." },
-  { title: "Fractional Leadership", description: "Embedded senior product or transformation leadership for a defined period." },
-  { title: "Workshops & Design Sprints", description: "Fixed-scope engagements: Product Strategy Sprint, AI Opportunity Sprint, Transformation Assessment." },
-  { title: "Transformation Programs", description: "End-to-end program leadership from discovery through execution and measurement." },
+  {
+    title: "Strategic Advisory",
+    description: "Ongoing strategic guidance for leadership teams navigating critical decisions — including AI strategy and product direction.",
+  },
+  {
+    title: "Fractional Leadership",
+    description: "Embedded senior product or AI transformation leadership for a defined period.",
+  },
+  {
+    title: "Workshops & Design Sprints",
+    description: "Fixed-scope engagements: Product Strategy Sprint, AI Opportunity Sprint, Transformation Assessment.",
+  },
+  {
+    title: "Transformation Programs",
+    description: "End-to-end program leadership from discovery through execution and measurement.",
+  },
 ];
 
 export function Services() {
@@ -97,7 +109,7 @@ export function Services() {
               <h3 className="text-xl font-semibold text-[var(--primary)] mb-3">
                 {service.title}
               </h3>
-              <p className="text-sm font-medium text-[var(--accent)] mb-4">
+              <p className="text-sm font-medium mb-4" style={{ color: service.accent }}>
                 {service.tagline}
               </p>
               <p className="text-sm text-[var(--secondary)] leading-relaxed mb-6">
@@ -160,3 +172,4 @@ export function Services() {
     </section>
   );
 }
+
