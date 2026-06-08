@@ -7,7 +7,7 @@ const industries = [
   "Payments",
   "SaaS",
   "Cybersecurity",
-  "AI-enabled Products",
+  "AI-Enabled Products",
   "Digital Assets",
   "Enterprise Technology",
 ];
@@ -99,3 +99,4 @@ export function AboutPreview() {
     </section>
   );
 }
+
