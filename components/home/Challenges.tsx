@@ -15,10 +15,10 @@ const challenges = [
   },
   {
     id: "ai",
-    title: "AI Enablement",
+    title: "AI Strategy & Enablement",
     problem: "AI initiatives are everywhere. Measurable results are not.",
     solution:
-      "I help organizations identify practical AI opportunities, validate business impact, and integrate AI into real operational workflows — both for product innovation and operational excellence.",
+      "I help organizations identify practical AI opportunities, validate business impact, and integrate AI into real workflows — for both product innovation and operational excellence. The goal is always measurable business value, not experiments that stall at pilot stage.",
     icon: "◎",
   },
   {
