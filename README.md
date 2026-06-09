@@ -1,4 +1,5 @@
 # Martin Mora Website v2
+# AIM: Executive Advisory Positioning (Product/AI/Transformation Consultant)
 
 Production-ready Next.js website — complete rebuild based on the ChatGPT-designed proposal.
 
